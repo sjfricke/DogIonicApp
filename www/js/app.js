@@ -1,5 +1,5 @@
 var mainModule = angular.module('mainModule', ['ionic', 'ngCordova', 'firebase'])
-var ref = new Firebase("https://lucyfrickeapp.firebaseio.com/");
+var ref = new Firebase("FIREBASEURL");
 
 mainModule.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
